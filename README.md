@@ -14,7 +14,7 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist postor/yii2-fileapi-widget "*"
+php composer.phar require --prefer-dist postor/yii2-fileapi-sae "*"
 ```
 
 or add
