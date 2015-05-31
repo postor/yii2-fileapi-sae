@@ -1,6 +1,8 @@
 Yii2 FileAPI widget.
 ==================
 This widget is a Yii 2 wrapper of [FileAPI](https://github.com/RubaXa/jquery.fileapi) plugin.
+this is an adapt for sina app engine
+this is based on 
 
 Installation
 ------------
@@ -10,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist vova07/yii2-fileapi-widget "*"
+php composer.phar require --prefer-dist postor/yii2-fileapi-widget "*"
 ```
 
 or add
 
 ```
-"vova07/yii2-fileapi-widget": "*"
+"postor/yii2-fileapi-widget": "*"
 ```
 
 to the require section of your `composer.json` file.
@@ -27,7 +29,7 @@ Usage:
 ```php
 // MyController.php
 
-use vova07\fileapi\actions\UploadAction as FileAPIUpload;
+use postor\fileapi\actions\UploadAction as FileAPIUpload;
 ...
 
 public function actions()
@@ -44,7 +46,7 @@ public function actions()
 ```php
 // MyModel.php
 
-use vova07\fileapi\behaviors\UploadBehavior;
+use postor\fileapi\behaviors\UploadBehavior;
 ...
 
 public function behaviors()
@@ -72,7 +74,7 @@ public function behaviors()
 ```php
 // _form.php
 
-use vova07\fileapi\Widget as FileAPI;
+use postor\fileapi\Widget as FileAPI;
 ...
 
 echo $form->field($model, 'preview_url')->widget(
@@ -84,3 +86,5 @@ echo $form->field($model, 'preview_url')->widget(
     ]
 );
 ```
+
+demo project: http://yii2postor.sinaapp.com/web/index.php?r=admin%2Fcategory%2Fupdate&id=2
