@@ -39,7 +39,7 @@ public function actions()
     return [
         'fileapi-upload' => [
             'class' => FileAPIUpload::className(),
-            'path' => '/path/to/temp/files'
+            'path' => 'saestor://upload/temp'
         ]
     ];
 }
@@ -58,15 +58,10 @@ public function behaviors()
             'class' => UploadBehavior::className(),
             'attributes' => [
                 'preview_url' => [
-                    'path' => '/path/to/previews',
-                    'tempPath' => '/path/to/temp/files/previews',
-                    'url' => '/url/to/previews'
+                    'path' => 'saestor://upload/temp',
+                    'tempPath' => 'saestor://upload/category',
+                    'url' => $saeStorage->getUrl('upload','category'),
                 ],
-                'image_url' => [
-                    'path' => '/path/to/images',
-                    'tempPath' => '/path/to/temp/files/images',
-                    'url' => '/url/to/images'
-                ]
             ]
         ]
     ];
