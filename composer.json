@@ -1,5 +1,5 @@
 {
-    "name": "postor/yii2-fileapi-widget",
+    "name": "postor/yii2-fileapi-sae",
     "description": "The FileAPI widget for Yii2 framework. adapt for sina app engin",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "fileapi", "upload", "files", "widget", "multiupload"],
@@ -15,8 +15,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/postor/yii2-fileapi-widget/issues?state=open",
-        "source": "https://github.com/postor/yii2-fileapi-widget"
+        "issues": "https://github.com/postor/yii2-fileapi-sae/issues?state=open",
+        "source": "https://github.com/postor/yii2-fileapi-sae"
     },
     "require": {
         "yiisoft/yii2": "*",
