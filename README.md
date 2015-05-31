@@ -20,7 +20,7 @@ php composer.phar require --prefer-dist postor/yii2-fileapi-sae "*"
 or add
 
 ```
-"postor/yii2-fileapi-widget": "*"
+"postor/yii2-fileapi-sae": "*"
 ```
 
 to the require section of your `composer.json` file.
