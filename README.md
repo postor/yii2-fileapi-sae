@@ -1,8 +1,10 @@
 Yii2 FileAPI widget.
 ==================
 This widget is a Yii 2 wrapper of [FileAPI](https://github.com/RubaXa/jquery.fileapi) plugin.
+
 this is an adapt for sina app engine
-this is based on 
+
+this is based on https://github.com/vova07/yii2-fileapi-widget
 
 Installation
 ------------
